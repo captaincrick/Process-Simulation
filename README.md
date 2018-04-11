@@ -1,35 +1,37 @@
 # Process-Simulation
 
-How To Use This Process Simulator
+<h1>How To Use This Process Simulator</h1>
 
-First you need to create an object of the type ServerProcess and pass in 5 variables (listed and explained below).
+<p>First you need to create an object of the type ServerProcess and pass in 5 variables (listed and explained below).</p>
 
-The variables:
+<h4>The variables:</h4>
 
-Through Put (tp): The rate at which an event is processed. 
-Standard Deviaton of Through Put (sd): the standard deviation of through put. 
-Servers (servers): the number of servers available to process events
-End time (end_time): how many time periods you want the simulation to last
-eph: the number ofevents you want to occur randomly per unit of time. 
+<ol>
+  <li>Through Put (tp): The rate at which an event is processed. </li>
+  <li>Standard Deviaton of Through Put (sd): the standard deviation of through put. </li>
+  <li>Servers (servers): the number of servers available to process events</li>
+  <li>End time (end_time): how many time periods you want the simulation to last</li>
+  <li>eph: the number ofevents you want to occur randomly per unit of time. </li>
+ </ol>
 
-The default values for all variables is 1. 
+<p>The default values for all variables is 1. </p>
 
-Next, call the run_sim method on your object. 
+<p>Next, call the run_sim method on your object. </p>
 
-Then call the report method on your object. 
+<p>Then call the report method on your object. </p>
 
-Example:
+<p>Example:</p>
 
-sim = ServerProcess(tp =.2,sd=.1,servers = 1,end_time=5,eph=5)
-sim.run_sim()
-sim.report()
+<p>sim = ServerProcess(tp =.2,sd=.1,servers = 1,end_time=5,eph=5)</p>
+<p>sim.run_sim()</p>
+<p>sim.report()</p>
 
-The above will generate something that looks like this:
+<p>The above will generate something that looks like this:</p>
 
-Total Number of Events: 26
-Simulation Time (With Overtime): 6.65618768977
-Percentage of Time Servers Were Busy: 89.9100747156
-Average Number of Events Waiting: 0.577463501347
-Average Wait Times: 0.682456865228
+<p>Total Number of Events: 26</p>
+<p>Simulation Time (With Overtime): 6.65618768977</p>
+<p>Percentage of Time Servers Were Busy: 89.9100747156</p>
+<p>Average Number of Events Waiting: 0.577463501347</p>
+<p>Average Wait Times: 0.682456865228</p>
 
-That's all I've got so far folks. I plan to update this periodically. 
+<p>That's all I've got so far folks. I plan to update this periodically. </p>
