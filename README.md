@@ -18,7 +18,7 @@
 
 <h4>Next, call the run_sim method on your object. </h4>
 
-<p>Then call the report method on your object. </p>
+<h4>Then call the report method on your object. </h4>
 
 <p><strong>Example:</strong></p>
 
