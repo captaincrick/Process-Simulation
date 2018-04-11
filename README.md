@@ -1,6 +1,8 @@
-# Process-Simulation
+# Process-Simulation 
 
-<h1>How To Use This Process Simulator</h1>
+<h1>Discrete Event Simulation</h1>
+
+<h2>How To Use This Process Simulator</h2>
 
 <p>First you need to create an object of the type ServerProcess and pass in 5 variables (listed and explained below).</p>
 
@@ -11,7 +13,7 @@
   <li>Standard Deviaton of Through Put (sd): the standard deviation of through put. </li>
   <li>Servers (servers): the number of servers available to process events</li>
   <li>End time (end_time): how many time periods you want the simulation to last</li>
-  <li>eph: the number ofevents you want to occur randomly per unit of time. </li>
+  <li>Inter-arrival (eph): the number of events you want to occur randomly per unit of time. </li>
  </ol>
 
 <p>The default values for all variables is 1. </p>
