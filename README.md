@@ -16,17 +16,17 @@
 
 <p>The default values for all variables is 1. </p>
 
-<p>Next, call the run_sim method on your object. </p>
+<h4>Next, call the run_sim method on your object. </h4>
 
 <p>Then call the report method on your object. </p>
 
-<p>Example:</p>
+<p><strong>Example:</strong></p>
 
 <p>sim = ServerProcess(tp =.2,sd=.1,servers = 1,end_time=5,eph=5)</p>
 <p>sim.run_sim()</p>
 <p>sim.report()</p>
 
-<p>The above will generate something that looks like this:</p>
+<p><strong>The above will generate something that looks like this:</strong></p>
 
 <p>Total Number of Events: 26</p>
 <p>Simulation Time (With Overtime): 6.65618768977</p>
