@@ -1,6 +1,8 @@
 
 <h1>Discrete Event Simulation</h1>
 
+<p>I am writing my own process simulator. It will have a lot of the same functionality of SimPy. However, I want to design it to be more user friendly. Perhaps you will be able to accomplish in 3-4 lines of code something that would require 20 lines of code in SimPy. </p>
+
 <h2>How To Use This Process Simulator</h2>
 
 <p>First you need to create an object of the type ServerProcess and pass in 5 variables (listed and explained below).</p>
